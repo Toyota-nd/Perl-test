@@ -1,0 +1,25 @@
+1. class1 基本的"讀了"跟"創了" "寫了" xls
+2. class2 可以讀取xls 並做了最簡單的綜合運算 並印出
+3. class3 可以查出目前表單中有哪些單位(不重複印出)
+4. class4 查出表單中有哪些單位 並且將其屬性數值做運算
+
+
+
+excel欄位要求
+
+1.col_1 是欄位敘述 值要從col_2開始
+2."所代號" 必須依序排列 不得亂跳 (不限大到小,小到大)
+
+
+====注意===========
+
+電腦需下載安裝 win32::ole
+
+http://blog.csdn.net/lengchun10/article/details/6323029
+http://tc.wangchao.net.cn/bbs/detail_1476947.html
+
+
+
+ppm> install OLE::Storage_Lite
+ppm> install Spreadsheet::ParseExcel
+ppm> install Spreadsheet::WriteExcel
